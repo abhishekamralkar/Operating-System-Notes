@@ -1,0 +1,20 @@
+#+title: Scheduling
+
+Lets see what are the different times in CPU scheduling.
+
+* Arrival Time:
+  The time at which process enters the Ready Queue. Its a point of time.
+
+* Burst Time:
+  Time required by a process to get executed by CPU. Its a duration.
+
+* Completion Time:
+  The time at which a process gets completed. Its also a point of time.
+
+* Turnaround Time:
+  Total duration of time for a process lifecycle. Its a duration.
+
+#+begin_src shell
+
+  turnaroundtime = completion time - arrival time
+#+end_src
