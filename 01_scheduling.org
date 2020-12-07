@@ -31,3 +31,25 @@ Lets see what are the different times in CPU scheduling.
      #+begin_src shell
       response time =  cpu for the firat time - arrival time
      #+end_src
+
+
+** Scheduling Algorithm
+
+Form now onwards we will use below short notations
+
+|       |
+|---+---|
+|Process No.| PN |
+|Arrival Time| AT|
+|Burst Time| BT|
+|Completion Time| CT|
+|Turn Around Time | TAT|
+|Waiting Time | WT|
+|Response Time | RT|
+
+
+- FCFS(First Come First Server):
+
+| PT | AT | BT | CT | TAT | WT | RT|
+|---+---+---+---+---+---
+|   |   |   |   |   |  |
